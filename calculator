@@ -1,0 +1,23 @@
+#Taking input of two numbers from user
+x=int(input("Enter first num="))
+y=int(input("Enter second num="))
+#taking input of arithmetic operator from user
+operator=input("Enter arithmetic operator from given option\n(+,-,*,/,%,**,//) = ")
+if(operator=='+'):
+    print("x","+","y","=",x+y,end="")
+elif(operator=='-'):
+    print("x","-","y","=",x-y,end="")
+elif(operator=='*'):
+    print("x","*","y","=",x*y,end="")
+elif(operator=='/'):
+    print("x","/","y","=",x/y,end="")
+elif(operator=='%'):
+    print("x","%","y","=",x%y,end="")
+elif(operator=='**'):
+    print("x","**","y","=",x**y,end="")
+elif(operator=='//'):
+    print("x","//","y","=",x//y,end="")
+else:
+    print("invalid option !! \nplease select from the above given option")
+    
+
